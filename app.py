@@ -105,8 +105,8 @@ st.markdown("""
 
 # === AUTENTICACIÓN ===
 USUARIOS = {
-    "karen": "fit2025",
-    "amiga": "fsrr2025",
+    "karen": "fit2026",
+    "Daniela": "fit2026",
 }
 
 def login():
