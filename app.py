@@ -531,7 +531,7 @@ def app_principal():
                 "📥 Cruce Carros", excel_carros,
                 "CRUCE_CARROS.xlsx",
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                use_container_width=True
+                width="stretch"
             )
         
         with c2:
@@ -545,7 +545,7 @@ def app_principal():
                 "📥 Cruce Locomotoras", excel_loco,
                 "CRUCE_LOCOMOTORAS.xlsx",
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                use_container_width=True
+                width="stretch"
             )
         
         with c3:
@@ -559,7 +559,7 @@ def app_principal():
                 "📥 Cruces Adicionales", excel_adic,
                 "CRUCE_ADICIONALES.xlsx",
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                use_container_width=True
+                width="stretch"
             )
         
         with c4:
@@ -567,7 +567,7 @@ def app_principal():
             st.download_button(
                 "📥 FIT Aprobado (CSV)", csv_resultado,
                 "FIT_APROBADO.csv", "text/csv",
-                use_container_width=True
+                width="stretch"
             )
 
 # === EJECUCIÓN ===
